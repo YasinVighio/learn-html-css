@@ -5,6 +5,5 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    justify-content: center;
-    justify-items: center;
+    width: 100%;
 }

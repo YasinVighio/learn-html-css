@@ -1,11 +1,43 @@
+@import url(fontfaces.css);
+
 body
 {
     margin: 0px;
 }
 
-.welcome-text
+.logo
 {
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+    transition: ease-in-out .5s;
+
+}
+
+.welcome-textbox
+{
+    text-align: center;
+    width: 100%;
+}
+
+.welcome-textbox-text
+{
+    background-color: rgb(65, 8, 8);
+    position: relative;
+    top: 40%;
+    text-align: center;
     color: white;
-    font-family: sans-serif;
-    font-size: 40px;
+    font-family: playfair;
+    font-size: 100px;
+    transition: ease-in-out .5s;
+}
+
+.welcome-textbox-text:hover
+{
+    font-size: 120px;
+}
+
+.logo:hover{
+    rotate: 360deg;
 }
