@@ -1,0 +1,10 @@
+.mainpage-cover-image
+{
+    background-image: url("../res/images/CoverImage.jpeg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
